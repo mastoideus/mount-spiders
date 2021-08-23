@@ -1,0 +1,30 @@
+.tSection {
+  text-align: center;
+  width: 100%;
+  padding-top: 90px;
+  background-color: black;
+  padding-left: 250px;
+  padding-right: 250px;
+  box-sizing: border-box;
+}
+
+.tSection__list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.tSection__explore {
+  color: var(--secondary-color);
+  letter-spacing: 1.4px;
+}
+.tSection__title {
+    color: var(--primary-color);
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+.tSection button {
+    margin-bottom: 70px;
+}

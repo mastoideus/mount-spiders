@@ -1,0 +1,13 @@
+  .btn {
+   padding: 10px 34px;
+    background-color: var(--secondary-color);
+    color: black;
+    font-weight: bold;
+    font-family:  'Anton', sans-serif;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+  } 
+   

@@ -1,0 +1,23 @@
+.fourtSection {
+  text-align: center;
+  padding: 40px 100px;
+  height: 570px;
+  background:linear-gradient(to right, rgb(45, 43, 43), rgb(21, 19, 19) );
+  letter-spacing: 1.3px;
+}
+
+.section__list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+.fourtSection__our {
+    color: var(--secondary-color);
+    
+}
+.fourtSection h1 {
+    color: var(--primary-color);
+   margin-bottom: 35px;
+}

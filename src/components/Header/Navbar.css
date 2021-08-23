@@ -1,0 +1,48 @@
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 100px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    align-items: center;
+    transition: all 0.3s ease-in;
+    z-index: 100;
+    
+}
+
+.showNav {
+    background-color: black;
+    z-index: 100;
+}
+
+.image {
+    width: 60px;
+    border-radius: 50%;
+ 
+}
+
+.navbar__burger {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+    
+}
+
+.navbar__burger span {
+    height: 4px;
+    width: 45px;
+    background-color: white;
+    margin-bottom: 3px;
+    border-radius: 6px;
+}
+
+.navbar__burger span:nth-last-child(1) {
+    width: 25px;
+}
