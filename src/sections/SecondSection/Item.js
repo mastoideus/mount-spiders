@@ -29,7 +29,7 @@ const Item=({id,title,description,image,btn})=>{
            <div data-aos='fade-up' >
            <h2>{title}</h2>
            <p>{description}</p>
-           <Button>{btn}</Button>
+           <Button mobileBtn='smallerBtn'>{btn}</Button>
            </div>
         </div>
         </div>

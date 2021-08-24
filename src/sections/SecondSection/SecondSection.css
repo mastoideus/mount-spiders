@@ -5,3 +5,9 @@
     height: 480px;
     
 }
+
+@media(max-width:599px){
+    .sSection .item:nth-of-type(1) p {
+       margin-bottom: 60px;
+    }
+}

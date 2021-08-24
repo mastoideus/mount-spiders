@@ -42,3 +42,11 @@
     margin: 0;
     margin-left: 5px;
 }
+
+
+
+@media(max-width:599px){
+    .underGallery__infoContainer {
+        width: 70%;
+    }
+}

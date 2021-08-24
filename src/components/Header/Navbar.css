@@ -46,3 +46,10 @@
 .navbar__burger span:nth-last-child(1) {
     width: 25px;
 }
+
+
+@media(max-width:599px){
+    .navbar {
+        padding: 10px 20px;
+    }
+}

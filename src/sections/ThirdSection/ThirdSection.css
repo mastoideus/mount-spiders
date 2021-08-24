@@ -28,3 +28,16 @@
 .tSection button {
     margin-bottom: 70px;
 }
+
+
+@media(max-width:599px) {
+  .tSection {
+    padding-left: 5px;
+    padding-right: 5px;
+   
+  }
+
+  .tSection__list {
+    flex-direction: column;
+  }
+}

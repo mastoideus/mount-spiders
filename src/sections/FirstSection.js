@@ -14,7 +14,7 @@ const FirstSection=(props)=>{
 
     return (
         <div className='firstSection'>
-           <div data-aos='fade-up'>
+           <div data-aos='fade-up' className='firstSection__info'>
              <h4 className='firstSection__question' >WHO WE ARE</h4>
              <h2>EXPERIENCE A HIGHER DIMENSION</h2>
              <p>We are a team of enthusiastic climbers exploring the most<br/>beautiful peaks of Giant Nature.Follow us safely to the top.</p>

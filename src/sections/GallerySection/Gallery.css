@@ -78,3 +78,14 @@ transition: all 0.3s;
 }
 
 
+
+@media(max-width:599px){
+    .gallery {
+         -webkit-column-width: 33%;
+  -moz-column-width: 33%;
+  column-width: 33%;
+  padding: 50px 10px;
+  height: 600px;
+
+    }
+}
