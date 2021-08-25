@@ -27,4 +27,8 @@
   .section__list {
      flex-direction: column;
   }
+
+  .fourtSection {
+    padding: 40px 20px;
+  }
 }
