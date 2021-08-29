@@ -1,28 +1,27 @@
 import React from 'react'
 import Header from './components/Header/Header'
-import FirstSection from './sections/FirstSection'
-import SecondSection from './sections/SecondSection/SecondSection'
-import ThirdSection from './sections/ThirdSection/ThirdSection'
-import FourtSection from './sections/FourtSection/FourtSection'
-import Gallery from './sections/GallerySection/Gallery'
-import UnderGallery from './sections/UnderGallery/UnderGallery'
-import ContactSection from './sections/ContactSection/ContactSection'
-import Footer from './sections/Footer/Footer'
+import Home from './pages/Home/Home'
+import Clients from './pages/Clients/Clients'
+import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom'
+import Navbar from './components/Header/Navbar'
 
 
 function App() {
   return (
-    <React.Fragment>
-      <Header />
-      <FirstSection/>
-      <SecondSection/>
-      <ThirdSection/>
-      <FourtSection/>
-      <Gallery/>
-      <UnderGallery/>
-      <ContactSection/>
-      <Footer/>
-    </React.Fragment>
+    <Router>
+      <Navbar />
+      <Switch>
+      <Route path='/home' exact>
+      <Home/>
+      </Route>
+      <Route path='/clients'>
+      <Clients/>
+      </Route>
+      <Route path='/' exact>
+       <Redirect to='/home'></Redirect>
+      </Route>
+      </Switch>
+    </Router>
   );
 }
 

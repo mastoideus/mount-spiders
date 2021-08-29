@@ -1,6 +1,6 @@
 import React,{useEffect} from 'react' 
 import './Item.css' 
-import Button from '../../components/Button'
+import Button from '../../../../components/Button'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 

@@ -1,6 +1,6 @@
 import React from 'react' 
 import './UnderGallery.css' 
-import cityPic from '../../assets/images/city.png'
+import cityPic from '../../../../assets/images/city.png'
 import {GoLocation} from 'react-icons/go'
 
 

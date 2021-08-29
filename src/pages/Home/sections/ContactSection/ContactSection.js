@@ -1,6 +1,6 @@
 import React from 'react' 
 import './ContactSection.css' 
-import spiderPic from '../../assets/images/spider.jpeg'
+import spiderPic from '../../../../assets/images/spider.jpeg'
 
 
 const ContactSection=props=>{

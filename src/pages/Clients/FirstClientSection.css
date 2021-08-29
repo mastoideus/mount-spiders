@@ -1,0 +1,30 @@
+.firstClientS {
+    background-color: black;
+    padding: 100px 100px;
+    color: var(--primary-color);
+   text-align: center;
+    letter-spacing: 1.2px;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+
+.firstClientS__commList{
+    width: 100%;
+   
+}
+
+.firstClientS__clients{
+    color: var(--secondary-color);
+}
+
+.firstClientS__commList .comment:nth-last-child(3){
+   float: right;
+    
+}
+.firstClientS__commList .comment:nth-last-child(2){
+   margin-top: 380px;
+}
+.firstClientS__commList .comment:nth-last-child(1){
+   float: right;
+}

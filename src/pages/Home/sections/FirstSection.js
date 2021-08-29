@@ -1,7 +1,7 @@
 import React, {useEffect} from 'react' 
 import './FirstSection.css'
-import Button from '../components/Button'
-import groupPic from '../assets/images/Groupclimb.jpeg'
+import Button from '../../../components/Button'
+import groupPic from '../../../assets/images/Groupclimb.jpeg'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 

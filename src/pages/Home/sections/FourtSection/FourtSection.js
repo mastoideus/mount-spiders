@@ -4,7 +4,8 @@ import {BsFillChatSquareQuoteFill} from 'react-icons/bs'
 import FourtSItem from './FourtSItem'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
-import Button from '../../components/Button'
+import Button from '../../../../components/Button'
+import {Link} from 'react-router-dom'
 
 
 const sectionData=[
@@ -40,7 +41,7 @@ const FourtSection=(props)=>{
            <div className='section__list'>
              {sectionList}
            </div>
-           <Button>READ MORE</Button>
+           <Link to='/clients'><Button>READ MORE</Button></Link>
            </div>
         </div>
     )

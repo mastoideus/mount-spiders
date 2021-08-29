@@ -1,0 +1,27 @@
+.clientHeader {
+     color: var(--primary-color);
+    text-align: center;
+    min-height: 100vh;
+   
+    position: relative;
+}
+
+.clientHeader__container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.8);
+    padding-top: 190px;
+}
+
+.clientHeader__title {
+    font-size: 60px;
+    letter-spacing: 2.5px;
+    text-shadow: 4px 7px 10px black;
+}
+.clientHeader__subtitle {
+    letter-spacing: 1.3px;
+    margin-bottom: 40px;
+}

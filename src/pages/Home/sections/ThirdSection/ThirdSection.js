@@ -4,7 +4,7 @@ import {FaMedal} from 'react-icons/fa'
 import {RiMedalFill} from 'react-icons/ri'
 import {RiMedalLine} from 'react-icons/ri'
 import ThirdSItem from './ThirdSItem'
-import Button from '../../components/Button'
+import Button from '../../../../components/Button'
 import 'aos/dist/aos.css'
 import Aos from 'aos'
 

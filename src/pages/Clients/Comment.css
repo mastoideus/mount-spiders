@@ -1,0 +1,29 @@
+.comment {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 45%;
+    margin-bottom: 100px;
+    
+    text-align: left;
+}
+
+.comment__text {
+
+    font-size: 40px;
+}
+.comment__name {
+    color: grey;
+}
+
+.comment__right {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+    border-left: 4px solid yellow;
+    padding-left: 20px;
+    border-bottom: 4px solid yellow;
+    border-bottom-width: 70px;
+    border-bottom-right-radius: 50%;
+    margin-left: 1px;
+}
